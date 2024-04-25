@@ -3,6 +3,7 @@
   
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+        
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
 
     home-manager = {
@@ -16,8 +17,6 @@
     };
     
     nix-flatpak.url = "github:gmodena/nix-flatpak";
-  
-    firefox-gnome-theme = { url = "github:rafaelmardojai/firefox-gnome-theme"; flake = false; };
   };
 
 
